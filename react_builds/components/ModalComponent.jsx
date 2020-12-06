@@ -30,13 +30,13 @@ class ModalComponent extends React.Component {
   }
 }
 
-ModalComponent.propTypes = {
-  isOpen: React.PropTypes.bool.isRequired,
-  onCloseRequest: React.PropTypes.func,
-  style: React.PropTypes.objectOf(React.PropTypes.object),
-  overlayClassName: React.PropTypes.string,
-  modalClassName: React.PropTypes.string,
-};
+// ModalComponent.propTypes = {
+//   isOpen: React.PropTypes.bool.isRequired,
+//   onCloseRequest: React.PropTypes.func,
+//   style: React.PropTypes.objectOf(React.PropTypes.object),
+//   overlayClassName: React.PropTypes.string,
+//   modalClassName: React.PropTypes.string,
+// };
 
 ModalComponent.defaultStyles = {
   overlay: {
